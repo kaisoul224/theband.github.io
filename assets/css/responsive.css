@@ -1,0 +1,106 @@
+/* Responsive */
+/* PC */
+@media (min-width: 1024px){
+    
+}
+
+/* Tablet & Mobile */
+@media (max-width: 64em){
+    .buy-tickets{
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    .social-media{
+        font-size: 48px;
+    }
+
+    .footer .social-media a{
+        margin: 0 8px;
+    }
+
+    .footer .copy-right a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+    .contact-infor{
+        line-height: 2;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .contact-form .form-submit-btn{
+        padding: 16px 30px;
+    }
+
+    .contact-infor{
+        line-height: 2;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em){
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .s-col-full{
+        width: 100%;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+
+    #nav li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 42px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #content .member-img{
+        width: 60%;
+    }
+
+    .contact-form{
+        margin-top: 32px;
+    }
+}
